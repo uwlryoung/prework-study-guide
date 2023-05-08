@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-You can review the notes of each area of study in the bootcamp (currently: HTML, CSS, GIT and JavaScript.) You can find suggestions on what to study first by opening Chrom DevTools (press Command+Option+I if on Mac, or Control+Shift+I if on Windows). Click on the "Console" to see a list of topics and a suggestion of where to start studying.
+You can review the notes of each area of study in the bootcamp (currently: HTML, CSS, GIT and JavaScript.) You can find suggestions on what to study first by opening Chrome DevTools (press Command+Option+I if on Mac, or Control+Shift+I if on Windows). Click on the "Console" to see a list of topics and a suggestion of where to start studying.
 
 ## Credits
 
