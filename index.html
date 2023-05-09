@@ -19,6 +19,10 @@
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
+          <li>Check out this HTML cheatsheet <a href="https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet">here</a></li>
+          <li><strong>Semantic elements:</strong> article, aside, details, main, footer, header, etc</li>
+          <li><strong>Global attributes</strong> are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.</li>
+          <li>Link the CSS file by typing: <strong>link rel="stylesheet" href="styles.css"</strong> in between the head tags</li>
         </ul>
       </section>
    
@@ -28,6 +32,43 @@
           <li>A . is a class selector (e.g. ".card" will select all classes titled "card")</li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li><strong>Display</strong>
+            <li>Outer Display: How a Box is laid out in its environment</li>
+            <ul>
+              <li>Outer-Display Type - Block:
+                  <ul>
+                    <li>The Box will break into a new line</li>
+                    <li>The width and height properties are respected.</li>
+                    <li>Padding, margin and border will cause other elements to be pushed away from the box</li>
+                    <li>If width is not specified, the box will extend in the inline direction to fill the space available in its container. In most cases, the box will become as wide as its container, filling up 100% of the space available.</li>
+                  </ul>
+              </li>
+              <li>Out-Display Type - Inline:
+                <ul>
+                  <li>The box will not break onto a new line.</li>
+                  <li>The width and height properties will not apply.</li>
+                  <li>Top and bottom padding, margins, and borders will apply but will not cause other inline boxes to move away from the box.</li>
+                  <li>Left and right padding, margins, and borders will apply and will cause other inline boxes to move away from the box.</li>
+                </ul>
+              </li>
+              <li>Inner Display: How elements inside the box are laid out</li>
+              <li>padding: the space between elements within a box</li>
+              <li>margin: the space around a box</li>
+            </ul>
+            <li><strong>Positions:</strong>
+              <ul>
+                <li>static: HTML elements are positioned this way by default, not affected by top, bottom, left or right properties. 
+                  They are positioned according to the normal flow of the page.</li>
+                <li>relative: HTML elements are positioned relative to its normal position. This means you can set the top, right, bottom and left properties. 
+                  Be careful: otehr content will not be adjusted to fit into any gap left by the element.</li>
+                <li>fixed: the HTML elements are fixed in one spot on the screen (as your scroll down, it will stay with you in that same spot). 
+                  Use top, right, bottom and left properties to move it. A fixed element does not leave a gap and so it will overlap other items. </li>
+                <li>absolute: HTML elements are positioned relative to the nearest positioned ancestor. 
+                  If there are no ancestors, is uses the document body and moves along with the page while scrolling. It can overlap elements.</li>
+                <li>sticky: HTML elements are positioned basd on the user's scroll position. This toggles between relative and fixed positions. it is positioned relative until a given offset position is met in the screen - then it sticks into place like fixed.</li>
+              </ul>
+            </li>
+          </li>
         </ul>
       </section>
    
