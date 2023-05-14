@@ -12,12 +12,10 @@
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
-      <div>  
-        <nav>
-          <a id="nav-bar" href="index-links.html">Links from Class</a>
-        </nav>
-      </div>
     </header>
+    <nav>
+      <a id="nav-bar" href="index-links.html">Links from Class</a>
+    </nav>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
@@ -89,8 +87,35 @@
           </li>
           <li><strong>Flexbox</strong>
             <ul>
-              <li>
-
+              <li>Using flexbox allows you to layout content in rows and columns.</li>
+              <li>To use flexbox, use the CSS display "flex" (display: flex;)</li>
+              <li>Justify-content: distributes space between and around content items along the main-axis 
+                of a flex container, and the inline axis of a grid container
+                <ul>
+                  <li>space-around</li>
+                  <li>space-between</li>
+                  <li>space-evenly</li>
+                </ul>
+              </li>
+              <li>Flex-direction: column - can change content to be vertical</li>
+              <li>Align-items: will align the items within a flexbox</li>
+              <li>Flex-wrap: items will try to fit onto one line, and will probably scrunch items
+                together to be on one line. But with wrapping, it will push everything to the next line
+              </li>
+              <li><strong>Psuedo-Class/Element/Attribute</strong> Added to a selector that specifies a special state of the selected element.
+                <li>Add a Psuedo-class by adding ":" to a selector. E.g.: ".main-class:pseudoclass{}</li>
+                <li>Add a Psuedo-element by adding "::" to a selector. E.g.: ".main-class:pseudoelement{}</li>
+                <li>To target an HTML attribute, add a special name in the html tag (e.g. h1 special-name="the-name" /h1)
+                  then in the CSS, write h1[special-name]:hover:{content:attr(special-name)}
+                </li>
+              </li>
+              <li><strong>Variables and Selectors</strong>
+                <ul>
+                  <li>Variables are very useful when you have many of the same items listed throughout your html file and 
+                    you want to change everything at once. Make a variable in CSS by typing :root { --[name of variable]: attribute}
+                  </li>
+                  <li>Selectorrs can help you target specific attributes/elements. selector[target-attribute/src]{}</li>
+                </ul>
               </li>
             </ul>
           </li>
