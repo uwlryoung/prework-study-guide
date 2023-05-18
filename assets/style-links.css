@@ -12,11 +12,31 @@ footer {
 }
 
 nav {
-    color: white;
+    color: black;
+    background-color: blanchedalmond;
     text-align: right;
-    font-size: 40px;
+    padding: 8px;
+    display: block;
 }
 
 #nav-bar {
-    color: white;
+    color: blue;
+    font-size: 40px;
+}
+
+section {
+    flex: 1 0 0;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }

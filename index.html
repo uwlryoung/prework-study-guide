@@ -119,6 +119,15 @@
               </li>
             </ul>
           </li>
+          <li><strong>Typography</strong>
+            <ul>
+              <li> font-family: selects font family</li>
+              <li>font weight: selects weight (bold/bolder) or on a scall 100-900</li>
+              <li>font-style: Change the font style: normal, italic, oblique</li>
+              <li>text-transform: Transform the text: uppercase, lowercase, capitalize</li>
+              <li>text-decoration: Set text decorations on fonts: underline, overline, line-through</li>
+            </ul>
+          </li>
         </ul>
       </section>
    
@@ -128,11 +137,35 @@
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout main: switches to main branch</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <li>git add -A: command to commit all files in the working branch</li>
-          <li>git commit -m "added code to HTML file": commits changes and -m " "associates a message with the commit</li>
-          <li>git pull origin main: pull the base branch into your feature branch before pushing up any code.</li>
-          <li>git push origin feature/[branch name]: pushes changes</li>
+          <li><strong>Version Control</strong>- Updating your remote repo
+            <ul>
+              <li>git add -A: command to commit all files in the working branch</li>
+              <li>git commit -m "added code to HTML file": commits changes and -m " "associates a message with the commit</li>
+              <li>git pull origin main: pull the base branch into your feature branch before pushing up any code.</li>
+              <li>git push origin feature/[branch name]: pushes changes</li>
+            </ul>
+          </li>
           <li>git pull origin main: pulls in the latest changes</li>
+          <li><strong>Creating a Repo from Terminal</strong>
+            <ul>
+              <li> If you haven't already, "git config --global init.defaultBranch" but should only need to be done once. 
+                Essentially we want our branch to be "main" and not "master". Long ago, "master" was the main name of the branch used.
+              </li>
+              <li>git init: this initializes a repo. Make sure to be in folder you wish to make a repo. Or, mkdir for a new folder followed by
+                touch index.html to get your first file started. But if the folder and files are already made, you don't have to do this step. 
+              </li>
+              <li>git add -A to add all of the files from that folder</li>
+              <li>git commit -m "initial commit": your first commit!</li>
+              <li>Navigate to github (or wherever you are going to store your repo) and create a new repo with the same name as the folder.
+                Skip making the README.md file.
+              </li>
+              <li>Copy the following code and paste it into the terminal:<br>
+                git remote add origin <the HTTPS or SSH URL ending in .git><br>
+                git branch -M main (this step can be skipped if you already did the --global main step)<br>
+                git push -u origin main
+              </li>
+            </ul>
+          </li>
         </ul>
       </section>
    
