@@ -24,16 +24,28 @@ nav {
     font-size: 40px;
 }
 
-section {
-    flex: 1 0 0;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card {
-    flex: 1 0 0;
     padding: 10px;
+    margin: 5px;
+    min-width: 200px;
+    width: fit-content;
+    text-align: left;
+    border: black solid 2px;
+}
+
+.card h2{
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
+    text-decoration: underline;
+    margin: 2px;
+}
+.card ul {
+    list-style: none;
 }
 
 footer {
