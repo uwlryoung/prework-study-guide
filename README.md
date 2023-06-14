@@ -6,7 +6,8 @@ This Prework Study Guide is a place to highlight important points about web deve
 
 Below are two links, the first is to the main page where you can find my notes. The second links is a collection of all the resources that have been linked from our bootcamp, our SSM (Student Success Manager) and other students in the class. 
 
-[Pre-work Study Guide](https://uwlryoung.github.io/prework-study-guide/
+[Pre-work Study Guide](https://uwlryoung.github.io/prework-study-guide/)
+
 [Link to Provided Resouces](https://uwlryoung.github.io/prework-study-guide/index-links.html)
 
 ## Installation
